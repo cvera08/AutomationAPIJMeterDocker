@@ -1,0 +1,4 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1603148362952,1881,GET_Ping,200,OK,Thread Group 1-1,text,true,,834,184,1,1,https://echo-serv.tbxnet.com/v1/system/ping,1875,0,1375
+1603148364841,531,GET_TextTest,200,OK,Thread Group 1-1,text,true,,803,143,1,1,https://echo-serv.tbxnet.com/v1/echo?&text=test,531,0,0
+1603148365373,2435,POST_RequestTestService,200,OK,Thread Group 1-1,text,true,,1645,216,1,1,https://echo-serv.tbxnet.com/v1/test,2433,0,1946

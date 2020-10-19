@@ -1,0 +1,65 @@
+2020-10-19 22:59:21,016 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-10-19 22:59:21,064 INFO o.a.j.JMeter: Loading user properties from: /home/jmeter/apache-jmeter-5.2.1/bin/user.properties
+2020-10-19 22:59:21,066 INFO o.a.j.JMeter: Loading system properties from: /home/jmeter/apache-jmeter-5.2.1/bin/system.properties
+2020-10-19 22:59:21,068 INFO o.a.j.JMeter: Setting JMeter property: threads=20
+2020-10-19 22:59:21,069 INFO o.a.j.JMeter: Setting JMeter property: rampup=20
+2020-10-19 22:59:21,070 INFO o.a.j.JMeter: Setting JMeter property: duration=240
+2020-10-19 22:59:21,074 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-10-19 22:59:21,075 INFO o.a.j.JMeter: Version 5.2.1
+2020-10-19 22:59:21,076 INFO o.a.j.JMeter: java.version=1.8.0_252
+2020-10-19 22:59:21,077 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2020-10-19 22:59:21,077 INFO o.a.j.JMeter: os.name=Linux
+2020-10-19 22:59:21,078 INFO o.a.j.JMeter: os.arch=amd64
+2020-10-19 22:59:21,079 INFO o.a.j.JMeter: os.version=4.19.76-linuxkit
+2020-10-19 22:59:21,080 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-10-19 22:59:21,080 INFO o.a.j.JMeter: java.awt.headless=true
+2020-10-19 22:59:21,081 INFO o.a.j.JMeter: Max memory     =989855744
+2020-10-19 22:59:21,082 INFO o.a.j.JMeter: Available Processors =4
+2020-10-19 22:59:21,092 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-10-19 22:59:21,093 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-10-19 22:59:21,094 INFO o.a.j.JMeter: JMeterHome=/home/jmeter/apache-jmeter-5.2.1
+2020-10-19 22:59:21,095 INFO o.a.j.JMeter: user.dir  =/Users/truelogic/Downloads/JMeterDocker
+2020-10-19 22:59:21,098 INFO o.a.j.JMeter: PWD       =/Users/truelogic/Downloads/JMeterDocker
+2020-10-19 22:59:21,100 INFO o.a.j.JMeter: IP: 172.17.0.2 Name: 29a672e32203 FullName: 29a672e32203
+2020-10-19 22:59:21,121 INFO o.a.j.s.FileServer: Default base='/Users/truelogic/Downloads/JMeterDocker'
+2020-10-19 22:59:21,141 INFO o.a.j.s.FileServer: Set new base='/Users/truelogic/Downloads/JMeterDocker/test'
+2020-10-19 22:59:21,509 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-10-19 22:59:21,533 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-10-19 22:59:21,547 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-10-19 22:59:21,569 INFO o.a.j.s.SaveService: Loading file: test/JMeterDocker_Toolbox.jmx
+2020-10-19 22:59:21,682 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-19 22:59:21,683 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-19 22:59:21,684 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-19 22:59:21,685 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-19 22:59:21,686 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-10-19 22:59:21,687 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-10-19 22:59:21,795 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-10-19 22:59:21,815 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-10-19 22:59:21,818 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-19 22:59:21,820 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-10-19 22:59:21,838 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-10-19 22:59:21,839 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-10-19 22:59:22,626 INFO o.a.j.JMeter: Running test (1603148362626)
+2020-10-19 22:59:22,671 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2020-10-19 22:59:22,673 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2020-10-19 22:59:22,674 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-10-19 22:59:22,675 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-10-19 22:59:22,688 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-10-19 22:59:22,689 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-10-19 22:59:22,694 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2020-10-19 22:59:22,746 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = 29a672e32203
+2020-10-19 22:59:22,773 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-10-19 22:59:22,779 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-10-19 22:59:22,779 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-10-19 22:59:22,781 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-10-19 22:59:22,781 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-10-19 22:59:23,026 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2020-10-19 22:59:23,049 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2020-10-19 22:59:23,050 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2020-10-19 22:59:23,349 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2020-10-19 22:59:23,356 INFO o.a.j.u.SSLManager: KeyStore created OK
+2020-10-19 22:59:23,357 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2020-10-19 22:59:27,808 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2020-10-19 22:59:27,810 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2020-10-19 22:59:27,812 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-10-19 22:59:27,816 INFO o.a.j.r.Summariser: summary =      3 in 00:00:05 =    0.6/s Avg:  1615 Min:   531 Max:  2435 Err:     0 (0.00%)
