@@ -1,5 +1,7 @@
 # AutomationAPIJMeterDocker
-Run JMeter Tests using Docker
+This repository is intended to test an API project running JMeter tests using Docker.
+It has a container image from a Dockerfile which will contain the necessary information and configuration to download Alpine Linux (Lightweight - 94Mb based on alpine linux and OpenJDK), install Java JRE 1.8+, download and unzip JMeter. 
+Then we need to run some shell scripts to initialize the container and to run our test/s.
 
 #
 
@@ -11,11 +13,12 @@ Windows, Linux, Mac:
 
 Homebrew:
 *https://www.atlassian.com/git/tutorials/install-git
-\
-\
+
+
 ##### 2- Install Docker locally (Docker desktop)
 *https://docs.docker.com/desktop/
-\
+
+
 Or on a supported Mac, if you have brew already installed, run:
 ```sh
 brew install --cask docker
@@ -69,7 +72,7 @@ you should get something similar to this:
  jmeter args=-n -t test/JMeterDocker_Toolbox.jmx -l test/JMeterDocker_Toolbox.jtl -j test/JMeterDocker_Toolbox.log -Jthreads=20 -Jrampup=20 -Jduration=240
  Oct 19, 2020 11:56:09 PM java.util.prefs.FileSystemPreferences$1 run
  INFO: Created user preferences directory.
- Creating summariser <summary>
+ Creating summariser
  Created the tree successfully using test/JMeterDocker_Toolbox.jmx
  Starting standalone test @ Mon Oct 19 23:56:10 GMT 2020 (1603151770543)
  Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
@@ -110,5 +113,5 @@ Just open the generated test/JMeterDocker_Toolbox.csv file
 cat test/JMeterDocker_Toolbox.csv | sed -e 's/,,/, ,/g' | column -s, -t | less -#5 -N -S
 ```
 #
-#### Feel free to open JMeterDocker_Toolbox.jmx in your local JMeter and add/modify/delete any test
+###  Feel free to open JMeterDocker_Toolbox.jmx in your local JMeter and add/modify/delete any test
 ![alt text](https://i.ibb.co/DVx8G2S/Cursor-and-JMeter-Docker-Toolbox-jmx-JMeter-Docker-test-JMeter-Docker-Toolbox-jmx-Apache-JMeter-5-4.png)
