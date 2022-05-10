@@ -1,6 +1,6 @@
 # AutomationAPIJMeterDocker
-This repository is intended to test an API project running JMeter tests using Docker.
-It has a container image from a Dockerfile which will contain the necessary information and configuration to download Alpine Linux (Lightweight - 94Mb based on alpine linux and OpenJDK), install Java JRE 1.8+, download and unzip JMeter. 
+This repository is intended to test an API project running JMeter tests using Docker.  
+It has a container image from a Dockerfile which will contain the necessary information and configuration to download Alpine Linux (Lightweight - 94Mb based on alpine linux and OpenJDK), install Java JRE 1.8+, download and unzip JMeter.  
 Then we need to run some shell scripts to initialize the container and to run our test/s.
 
 #
@@ -8,10 +8,10 @@ Then we need to run some shell scripts to initialize the container and to run ou
 ### Requisites:
 ##### 1- Install Git locally
 You can follow one of these links:
-Windows, Linux, Mac: 
+Windows, Linux, Mac:  
 *https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-Homebrew:
+Homebrew:  
 *https://www.atlassian.com/git/tutorials/install-git
 
 
@@ -19,11 +19,12 @@ Homebrew:
 *https://docs.docker.com/desktop/
 
 
+
 Or on a supported Mac, if you have brew already installed, run:
 ```sh
 brew install --cask docker
 ```
-Then launch the Docker app. Click next. It will ask for privileged access. Confirm. A whale icon should appear in the top bar. Click it and wait for "Docker is running" to appear. You should be able to run docker commands now
+Then launch the Docker app. Click next. It will ask for privileged access. Confirm. A whale icon should appear in the top bar. Click it and wait for "Docker is running" to appear. You should be able to run docker commands now.
 
 You can verify your installation with the following command:
 ```sh
@@ -33,7 +34,7 @@ You should get something like this:
 >Docker version 20.10.14, build a224086
 
 
-##### 3- Install Jmeter Locally
+##### 3- Install Jmeter locally
 *https://jmeter.apache.org/download_jmeter.cgi
 
 Or On a supported Mac, if you have brew already installed, run:
@@ -44,7 +45,7 @@ jmeter
 ```
 Source: https://octoperf.com/blog/2017/10/26/how-to-install-jmeter-mac/#launch-jmeter
 
-#If you are unable to click JMeter Open icon, go to Options > Look and Feel > System (restart JMeter)
+#if you are unable to click JMeter Open icon, go to Options > Look and Feel > System (restart JMeter)  
 Source: https://stackoverflow.com/questions/67615212/why-am-i-not-able-to-click-on-open-icon-in-jmeter
 
 ##### 4- Clone this repository:
@@ -73,6 +74,7 @@ you should get something similar to this:
  Oct 19, 2020 11:56:09 PM java.util.prefs.FileSystemPreferences$1 run
  INFO: Created user preferences directory.
  Creating summariser
+
  Created the tree successfully using test/JMeterDocker_Toolbox.jmx
  Starting standalone test @ Mon Oct 19 23:56:10 GMT 2020 (1603151770543)
  Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
@@ -108,10 +110,10 @@ or
 ```
 Just open the generated test/JMeterDocker_Toolbox.csv file
 ![alt text](https://i.ibb.co/wLWyBBb/JMeter-Docker-Toolbox-Google-Sheets.png)
-#If not, you can see it by command line as well using:
+#ff not, you can see it by command line as well using:
 ```sh
 cat test/JMeterDocker_Toolbox.csv | sed -e 's/,,/, ,/g' | column -s, -t | less -#5 -N -S
 ```
 #
-###  Feel free to open JMeterDocker_Toolbox.jmx in your local JMeter and add/modify/delete any test
+###  You may open JMeterDocker_Toolbox.jmx in your JMeter and add/modify/delete any test
 ![alt text](https://i.ibb.co/DVx8G2S/Cursor-and-JMeter-Docker-Toolbox-jmx-JMeter-Docker-test-JMeter-Docker-Toolbox-jmx-Apache-JMeter-5-4.png)
