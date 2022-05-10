@@ -69,12 +69,11 @@ cd JMeterDocker
 
 you should get something similar to this:
 >----  STARTING JMeter Test ---- Mon Oct 19 23:56:07 UTC 2020
- JVM_ARGS=-Xmn234m -Xms936m -Xmx936m
- jmeter args=-n -t test/JMeterDocker_Toolbox.jmx -l test/JMeterDocker_Toolbox.jtl -j test/JMeterDocker_Toolbox.log -Jthreads=20 -Jrampup=20 -Jduration=240
+JVM_ARGS=-Xmn234m -Xms936m -Xmx936m
+jmeter args=-n -t test/JMeterDocker_Toolbox.jmx -l test/JMeterDocker_Toolbox.jtl -j test/JMeterDocker_Toolbox.log -Jthreads=20 -Jrampup=20 -Jduration=240
  Oct 19, 2020 11:56:09 PM java.util.prefs.FileSystemPreferences$1 run
  INFO: Created user preferences directory.
  Creating summariser
-
  Created the tree successfully using test/JMeterDocker_Toolbox.jmx
  Starting standalone test @ Mon Oct 19 23:56:10 GMT 2020 (1603151770543)
  Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
@@ -110,7 +109,7 @@ or
 ```
 Just open the generated test/JMeterDocker_Toolbox.csv file
 ![alt text](https://i.ibb.co/wLWyBBb/JMeter-Docker-Toolbox-Google-Sheets.png)
-#ff not, you can see it by command line as well using:
+#if not, you can see it by command line as well using:
 ```sh
 cat test/JMeterDocker_Toolbox.csv | sed -e 's/,,/, ,/g' | column -s, -t | less -#5 -N -S
 ```
