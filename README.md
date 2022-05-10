@@ -68,7 +68,8 @@ cd JMeterDocker
 #enter your local password if it is required (sudo commands)
 
 you should get something similar to this:
->----  STARTING JMeter Test ---- Mon Oct 19 23:56:07 UTC 2020
+```
+----  STARTING JMeter Test ---- Mon Oct 19 23:56:07 UTC 2020
 JVM_ARGS=-Xmn234m -Xms936m -Xmx936m
 jmeter args=-n -t test/JMeterDocker_Toolbox.jmx -l test/JMeterDocker_Toolbox.jtl -j test/JMeterDocker_Toolbox.log -Jthreads=20 -Jrampup=20 -Jduration=240
  Oct 19, 2020 11:56:09 PM java.util.prefs.FileSystemPreferences$1 run
@@ -81,6 +82,7 @@ jmeter args=-n -t test/JMeterDocker_Toolbox.jmx -l test/JMeterDocker_Toolbox.jtl
  Tidying up ...    @ Mon Oct 19 23:56:15 GMT 2020 (1603151775585)
  ... end of run
  ----  ENDING JMeter Test ---- Mon Oct 19 23:56:16 UTC 2020
+```
 
 #
 ### Run JMeter Tests in Docker: 
